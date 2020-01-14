@@ -96,4 +96,35 @@ print(friends[2])
 friends = ["Toosa", "Solid", "Meena", "Belly", "Rita", "Solid", "Solid"]
 print(friends.count("Solid"))
 
+-- SORT FUNCTION -- sorts the list in ascending order
+
+friends = ["Toosa", "Solid", "Meena", "Belly", "Rita", "Solid", "Solid"]
+friends.sort()
+print(friends)
+
+-- REVERSE FUNCTION -- places the list in reverse order
+
+lucky_numbers = [ 90, 2, 3, 45, 99 ]
+friends = ["Toosa", "Solid", "Meena", "Belly", "Rita", "Solid", "Solid"]
+friends.reverse()
+lucky_numbers.reverse()
+print(friends)
+print(lucky_numbers)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

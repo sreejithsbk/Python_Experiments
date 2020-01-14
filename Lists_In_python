@@ -18,3 +18,22 @@ friends = ["Kevin", "John", "Melissa", "Tessa"]
 
 print(friends[1:])
 
+-- The below exaple display the index position 1 and does not display index position 3 rather it end before it.
+
+friends = ["Kevin", "John", "Melissa", "Tessa", "Sizzle", "Tempo"]
+
+print(friends[1:3])
+
+-- In the following example if I change the index value at 2 "Melissa" to "Meloossa" in the second line it will make the change and print
+-- out the result with the change.
+
+friends = ["Kevin", "John", "Melissa", "Tessa", "Sizzle", "Tempo"]
+friends[2] = "Meloossa"
+print(friends)
+
+--List function --EXTEND FUNCTION
+
+lucky_numbers = [56, 23, 11, 20]
+friends = ["Toosa", "Meena","Belly", "Rita"]
+friends.extend(lucky_numbers)
+print(friends)

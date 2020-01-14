@@ -1,0 +1,6 @@
+-- Function are a set of code that perform an activity which you can call inside of your code at anytime
+
+def say_hi():
+    print("Hello guys !!!")
+
+say_hi()

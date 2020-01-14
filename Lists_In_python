@@ -111,6 +111,13 @@ lucky_numbers.reverse()
 print(friends)
 print(lucky_numbers)
 
+-- COPY FUNCTION -- making a copy of the list
+
+lucky_numbers = [ 90, 2, 3, 45, 99 ]
+friends = ["Toosa", "Solid", "Meena", "Belly", "Rita", "Solid", "Solid"]
+friends2 = friends.copy()
+print(friends2)
+
 
 
 

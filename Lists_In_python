@@ -37,3 +37,10 @@ lucky_numbers = [56, 23, 11, 20]
 friends = ["Toosa", "Meena","Belly", "Rita"]
 friends.extend(lucky_numbers)
 print(friends)
+
+Opposite way
+
+lucky_numbers = [56, 23, 11, 20]
+friends = ["Toosa", "Meena","Belly", "Rita"]
+lucky_numbers.extend(friends)
+print(lucky_numbers)

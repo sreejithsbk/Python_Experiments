@@ -1,0 +1,4 @@
+Tuples are same as Lists but are different in it characteristics , where you cannot modify, remove, or change a Tuples unlike the lists
+
+-- Example
+coordinates (3,5)

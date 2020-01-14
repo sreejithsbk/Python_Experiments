@@ -1,0 +1,8 @@
+-- if the condition is true then the first statement is executed, if the condition is False the second statement is executed.
+
+is_male = True
+
+if is_male:
+   print("You are identified to be Male")
+else:
+   print("You are not identified to be a Male")

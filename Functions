@@ -32,7 +32,8 @@ def say_hi(name, age):
 say_hi("harish", "23")
 say_hi("harish", "55")
 
--- RETURN FUNCTION -- The return function returns a value and exits out of the function 
+-- RETURN FUNCTION -- The return function returns a value and exits out of the function , 
+-- RETURN FUNCTION -- Is used to return a value to the caller of the function
 
 def cube(num):
     return num*num*num
@@ -53,3 +54,6 @@ def cube(num):
     print(result)
 
 cube(3)
+
+
+

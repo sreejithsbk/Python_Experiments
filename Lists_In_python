@@ -2,7 +2,7 @@ friends = ["Kevin", "John", "Melissa"]
 print(friends)
 print(friends[0])
 print(friends[1])
-print(friends[2] + " This is awesome" ",", friends[1], friends[0])
+print(friends[2] + " This is awesome" "," friends[1], friends[0])
 
 
 friends = ["Kevin", "John", "Melissa"]

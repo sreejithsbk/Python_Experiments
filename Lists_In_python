@@ -31,7 +31,7 @@ friends = ["Kevin", "John", "Melissa", "Tessa", "Sizzle", "Tempo"]
 friends[2] = "Meloossa"
 print(friends)
 
---List function --EXTEND FUNCTION
+--EXTEND FUNCTION You can combine two lists into one by entend function
 
 lucky_numbers = [56, 23, 11, 20]
 friends = ["Toosa", "Meena","Belly", "Rita"]
@@ -44,3 +44,56 @@ lucky_numbers = [56, 23, 11, 20]
 friends = ["Toosa", "Meena","Belly", "Rita"]
 lucky_numbers.extend(friends)
 print(lucky_numbers)
+
+-- APPEND FUNCTION the below shall add one more value Dooola to the list of friends while printing it out
+
+lucky_numbers = [56, 23, 11, 20]
+friends = ["Toosa", "Meena","Belly", "Rita"]
+friends.append("Doooola")
+print(friends)
+
+-- INSERT FUNCTION -- Inserting a value as per the index number and the following items shall be moved to the right.
+
+lucky_numbers = [56, 23, 11, 20]
+friends = ["Toosa", "Meena","Belly", "Rita"]
+friends.insert(2,"Hooda")
+print(friends)
+
+-- REMOVE FUNCTION removing a value in the list
+
+lucky_numbers = [56, 23, 11, 20]
+friends = ["Toosa", "Meena","Belly", "Rita"]
+friends.remove("Rita")
+print(friends)
+
+-- CLEAR FUNCTION this will remove the complete list
+
+lucky_numbers = [56, 23, 11, 20]
+friends = ["Toosa", "Meena","Belly", "Rita"]
+friends.clear()
+print(friends)
+
+-- POP FUNCTION - Gets rid of the last item in the list
+
+friends = ["Toosa", "Meena","Belly", "Rita", "Solid"]
+friends.pop()
+print(friends)
+
+-- INDEX FUNCTIO -- displays the index number for the value u pass on to
+
+lucky_numbers = [56, 23, 11, 20]
+friends = ["Toosa", "Meena","Belly", "Rita", "Solid"]
+print(friends.index("Solid"))
+
+-- The below display the value in a specified index number
+
+lucky_numbers = [56, 23, 11, 20]
+friends = ["Toosa", "Meena","Belly", "Rita", "Solid"]
+print(friends[2])
+
+-- COUNT FUNCTION -- This will tell you how many times the value shows up in the list. The word "Solid" shows up three times.
+
+friends = ["Toosa", "Solid", "Meena", "Belly", "Rita", "Solid", "Solid"]
+print(friends.count("Solid"))
+
+

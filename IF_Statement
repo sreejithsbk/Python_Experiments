@@ -6,3 +6,23 @@ if is_male:
    print("You are identified to be Male")
 else:
    print("You are not identified to be a Male")
+
+--OR statement when one of either condition is true.
+
+is_male = True
+is_tall = True
+
+if is_male or is_tall:
+   print("You are identified to be Male or Tall or may be both")
+else:
+   print("You are not identified to be a Male nor tall")
+
+--AND condition, where both the conditions must be true to have the first conditon to be true.
+
+is_male = True
+is_tall = True
+
+if is_male and is_tall:
+   print("You are identified to be Male and tall at the same time")
+else:
+   print("You are not identified to be a Male nor to be all")

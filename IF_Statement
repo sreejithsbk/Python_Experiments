@@ -26,3 +26,15 @@ if is_male and is_tall:
    print("You are identified to be Male and tall at the same time")
 else:
    print("You are not identified to be a Male nor to be all")
+
+-- NOT CONDITION --not(is_tall) this indicates that the person who is NOT TALL
+
+is_male = True
+is_tall = False
+
+if is_male and is_tall:
+   print("You are identified to be Male and tall at the same time")
+elif is_male and not(is_tall):
+    print("You are identified as a male who is not tall")
+else:
+   print("You are not identified to be a Male nor to be all")

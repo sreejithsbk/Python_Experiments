@@ -27,3 +27,13 @@ while num1 <= value:
       num1 += 1
 
 print("The loop ends here ...")
+
+--------------GUESS GAME USING WHILE LOOP ---------------
+
+secret_word = "bamboo"
+guess = ""
+
+while guess != secret_word:
+      guess = input("Guess the secret word that starts with the letter b: ")
+
+      print("You win , You guessed it right !!! :)")

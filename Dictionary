@@ -14,3 +14,20 @@ print(month_conversions["Jan"])
 print(month_conversions.get("Mar"))
 print(month_conversions.get("Apr"))
 print(month_conversions.get("lux","This is invalid key"))
+
+
+----end-----
+
+month_conversions = {
+    "Jan": "January",
+    "Feb": "February ",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+}
+
+print(month_conversions["Jan"])
+print(month_conversions.get("Mar"))
+print(month_conversions.get("Apr"))
+print(month_conversions.get("lux","This is invalid key"))

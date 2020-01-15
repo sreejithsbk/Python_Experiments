@@ -1,0 +1,16 @@
+-- DICTIONARY store key value pairs which can then be used to fetch the value associated with the key
+-- get() -- Allows us to give a default value to be displayed if a key is not associated to a value in the dictionary
+
+month_conversions = {
+    "Jan": "January",
+    "Feb": "February ",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+}
+
+print(month_conversions["Jan"])
+print(month_conversions.get("Mar"))
+print(month_conversions.get("Apr"))
+print(month_conversions.get("lux","This is invalid key"))

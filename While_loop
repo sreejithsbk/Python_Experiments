@@ -37,3 +37,21 @@ while guess != secret_word:
       guess = input("Guess the secret word that starts with the letter b: ")
 
       print("You win , You guessed it right !!! :)")
+      
+ ------------MY OWN CODE TO ALTERNATIVES GET TO THE SOLUTION ---SREE
+ 
+secret_word = "Bamboo"
+guess_count = 0
+max_guess = 3
+guess_word = ""
+
+while guess_word != secret_word and guess_count < max_guess:
+      guess_word = input("Enter your guess : ")
+      guess_count += 1
+      if guess_word == secret_word and guess_count < max_guess:
+        print("You win , Woooh...Keep it up you guessed it right ")
+      elif guess_word != secret_word and guess_count < max_guess:
+        print("Oops Wrong Guess ...Try Again...")
+      else:
+        print("Oops your guess count is over ..Play Again...")
+

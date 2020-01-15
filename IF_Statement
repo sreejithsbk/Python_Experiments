@@ -52,3 +52,31 @@ elif not(is_male) and is_tall:
     print("You are not a male but are tall")
 else:
    print("You are not identified to be a Male nor to be all")
+
+-- IF STATEMENT AND COMPARISON OPERATOR
+
+def max_num(num1, num2, num3):
+   if num1 >= num2 and num1 >= num3:
+       return num1
+   elif num2 >= num1 and num2 >= num3:
+       return num2
+   else:
+       return num3
+
+print(max_num(33, 24, 60))
+
+-- MY CODE BELOW WHICH IS EXPERIMENTAL for the same conditon above
+def max_num(num1, num2, num3):
+    x = float(num1)
+    y = float(num2)
+    z = float(num3)
+    if num1 > num2 and num1 > num3:
+        print("Num1 is the maximum number " + str(x))
+    elif num2 > num1 and num2 > num3:
+        print("Num2 is the maximum number " + str(y))
+    else:
+        print("Num3 is the maximum number " + str(z))
+
+max_num(33, 24, 12)
+
+

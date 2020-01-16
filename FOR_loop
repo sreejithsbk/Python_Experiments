@@ -25,3 +25,23 @@ for i in friends:
 
 for index in range(30):
     print(index)
+    
+-- Below will print out a range of index values starting from 10-29 and not including 30
+
+for index in range( 10, 30):
+    print(index)
+
+-- you can use range function to list the number of elements in an array
+
+friends = ["Kevin", "Tony", "Boomb"]
+#len(friends)
+for index in range(len(friends)):
+    print(index)
+    
+0 , 1, 2  -- resut
+-- The len function tells you how many elements are there in array, it retuns 3
+
+friends = ["Kevin", "Tony", "Boomb"]
+print(len(friends))
+
+

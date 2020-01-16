@@ -57,4 +57,23 @@ while guess_word != secret_word and guess_count < max_guess:
       else:
         print("Oops your guess count is over ..Play Again...")
 
+-- Same above logic as described in the video
 
+secret_word = "bamboo"
+guess = ""
+guess_count = 0
+guess_limit = 3
+out_of_guesses = False
+
+
+while guess != secret_word and not(out_of_guesses):
+    if guess_count < guess_limit:
+       guess = input("Enter your guess : ")
+       guess_count += 1
+    else:
+        out_of_guesses = True
+# Break out of the loop to address the outcome
+if out_of_guesses:
+    print("You are out of guesses ..YOU LOSE ...")
+else:
+    print("You Guessed it right , YOU WIN ...")

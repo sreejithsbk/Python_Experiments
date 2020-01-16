@@ -43,7 +43,7 @@ for index in range(len(friends)):
 friends = ["Kevin", "Tony", "Boomb"]
 #len(friends)
 for index in range(len(friends)):
-    print(friends[index)
+    print(friends[index])
     
 -- result prints out all the friends names in the array
 -- The len function tells you how many elements are there in array, it retuns 3

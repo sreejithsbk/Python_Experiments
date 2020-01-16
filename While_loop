@@ -40,13 +40,15 @@ while guess != secret_word:
       
  ------------MY OWN CODE TO ALTERNATIVES GET TO THE SOLUTION ---SREE
  
+
 secret_word = "Bamboo"
 guess_count = 0
 max_guess = 3
 guess_word = ""
 
+print ("ENTER THE SECRET WORD AND WIN A JACKPOT !!!")
 while guess_word != secret_word and guess_count < max_guess:
-      guess_word = input("Enter your guess : ")
+      guess_word = input("Enter your guess, The first letter of the secret is uppercase : ")
       guess_count += 1
       if guess_word == secret_word and guess_count < max_guess:
         print("You win , Woooh...Keep it up you guessed it right ")
@@ -54,4 +56,5 @@ while guess_word != secret_word and guess_count < max_guess:
         print("Oops Wrong Guess ...Try Again...")
       else:
         print("Oops your guess count is over ..Play Again...")
+
 

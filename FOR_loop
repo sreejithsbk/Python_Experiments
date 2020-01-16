@@ -1,0 +1,27 @@
+-- The below code just means every letter in the string "Giraffe Academy"
+
+for letter in "Giraffe Academy"
+     print(letter)
+     
+     or
+     
+for letter in "Sreejith Balakrishnan":
+     print(letter)
+     
+-- Another example 
+
+friends = ["Kevin", "Martin", "John"]
+for friend in friends:
+    print(friend)
+    
+    or
+    
+friends = ["Kevin", "Martin", "John", "tony"]
+for i in friends:
+    print(i)
+    
+    
+-- Below prints out a range of index numbers , in the below case it prints from 0-29 excluding 30
+
+for index in range(30):
+    print(index)

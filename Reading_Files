@@ -40,7 +40,12 @@ employee_file = open("employee.txt", "r")
 for employee in employee_file.readlines():
     print(employee)
     
-
+# Appending to a file a list of information
+employee_file = open("employee.txt" , "a")
+employee_file.write("\nMelissa - Manager Sales"
+                    "\nKate - Assistant Consultant"
+                    "\nSam - Typist")
+employee_file.close()
 
 
 

@@ -34,3 +34,8 @@ employee_file = open("employee.txt","r")
 print(employee_file.readlines()[1])
 employee_file.close()
 
+# Using for loop to display all the contents of the file using readlines() function
+# readlines() function, to display only the first content of the line
+employee_file = open("employee.txt", "r")
+for employee in employee_file.readlines():
+    print(employee)

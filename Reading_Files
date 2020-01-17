@@ -19,3 +19,18 @@ employee_file.write("\nBelly - Faculty")       #this will write in the next line
 employee_file.write("\nSarah - Manager Marketing")
 employee_file.write("\nSooraj - Camera Man")
 employee_file.close()
+
+
+# readlines() function, puts every thing in an array
+employee_file = open("employee.txt","r")
+print(employee_file.readlines())
+employee.close()
+
+OUTPUT: 
+['jim - Salesman\n', 'John - Customer Support Engineer\n', 'Melissa - Manager Sales\n', 'Kate - Assistant Consultant\n', 'Sam - Typist\n', 'Belly - Faculty\n', 'Sarah - Manager Marketing\n', 'Sooraj - Camera Man\n', 'Belly - Faculty\n', 'Sarah - Manager Marketing\n', 'Sooraj - Camera Man\n', 'Belly - Faculty\n', 'Sarah - Manager Marketing\n', 'Joseph - Faculty\n', 'Mandela - Manager Marketing\n', 'Moosa - Camera Man\n', '\n', 'Joseph - Faculty\n', 'Mandela - Manager Marketing\n', 'Moosa - Camera Man\n', 'Joseph - Faculty\n', 'Mandela - Manager Marketing\n', 'Moosa - Camera Man']
+
+# readlines() function, to display only the first content of the line
+employee_file = open("employee.txt","r")
+print(employee_file.readlines()[1])
+employee_file.close()
+

@@ -13,7 +13,7 @@ print(employee_file.readline())
 print(employee_file.readline())
 employee_file.close()
 
-# Appending to a file :
+# Appending to a file : "\n" Is important to append from the next line or it can spoil file.
 employee_file = open("employee.txt", "a")
 employee_file.write("\nBelly - Faculty")       #this will write in the next line appending the exsisting file.
 employee_file.write("\nSarah - Manager Marketing")
@@ -39,3 +39,10 @@ employee_file.close()
 employee_file = open("employee.txt", "r")
 for employee in employee_file.readlines():
     print(employee)
+    
+
+
+
+
+
+

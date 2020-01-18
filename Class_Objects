@@ -19,3 +19,21 @@ print(student1.major)
 print(student1.gpa)
 print(student1.phone)
 print(student1.is_on_probation)
+
+# -- Codes extra for practise
+
+from test_class import Student
+
+student1 = Student("sreejith", "devops", 2.5, "Yes", 810569634 )
+student2 = Student("Divya unnu", "devops", 2.5, "Yes", 739456033 )
+print(student1.name)
+print(student1.major)
+print(student1.gpa)
+print(student1.phone)
+print(student1.is_on_probation)
+print("\n")  # This creates an empty line in between
+print(student2.name)
+print(student2.major)
+print(student2.gpa)
+print(student2.phone)
+print(student2.is_on_probation)

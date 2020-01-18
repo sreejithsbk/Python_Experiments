@@ -1,0 +1,47 @@
+# -- Just a sample of how to display the output using [0] row index 
+
+question_prompts = [
+   "what color are the apple?\n(a) Red/Green\n(b) Magenta\n(c) Blue\n\n",
+    "what color are the Bananas?\n(a) Red/Green\n(b) Magenta\n(c) Blue\n\n",
+    "what color are the strawberreis?\n(a) Red/Green\n(b) Magenta\n(c) Blue\n\n",
+      ]
+
+print(question_prompts[0])
+print(question_prompts[1])
+
+
+# -- The COMPLETE PROGRAM
+# -- File : Multi_Choice_Question
+
+from Question import Question
+
+question_prompts = [
+   "what color are the apple?\n(a) Red/Green\n(b) Magenta\n(c) Blue\n\n",
+   "what color are the Bananas?\n(a) Red/Green\n(b) Yellow\n(c) Blue\n\n",
+   "what color are the strawberreis?\n(a) Black\n(b) Magenta\n(c) Red\n\n",
+      ]
+
+questions = [
+    Question(question_prompts[0], "a"),
+    Question(question_prompts[1], "b"),
+    Question(question_prompts[2], "c"),
+]
+
+def run_test(questions):
+    score = 0
+    for question in questions:
+        answer = input(question.prompt)
+        if answer == question.answer:
+           score += 1
+    print("You score is " + str(score) + "/" + str(len(questions)) + " are correct")
+
+
+run_test(questions)
+
+
+# -- File : Question : Class is defined
+
+class Question:
+    def __init__(self, prompt, answer):
+        self.prompt = prompt
+        self.answer = answer

@@ -37,3 +37,39 @@ print(student2.major)
 print(student2.gpa)
 print(student2.phone)
 print(student2.is_on_probation)
+
+##################### EXPERIMENTED THE CODE BY GATHERING THE INFORMATION AND UPDATING A FILE
+### The below program has been written by creating three file --test.txt -- test_class.py --Student.py
+
+from test_class import Student
+
+name = input("Enter your name : ")
+major = input("Enter your major : ")
+gpa = float(input("Enter your gpa : "))
+phone = int(input("Enter your phone number : "))
+is_on_probation = input("Enter (True / False : ")
+student1 = Student("name", "major", "gpa", "phone", "is_on_probation")
+
+student1 =Student(name, major, gpa, phone, is_on_probation)
+
+print("\n")
+print(student1.name)
+print(student1.major)
+print(student1.gpa)
+print(student1.phone)
+print(student1.is_on_probation)
+
+file_name = open("test.txt", "a")
+file_name.write(student1.name)
+file_name.write("\n")
+file_name.write(student1.major)
+file_name.write("\n")
+file_name.write(str(student1.gpa))
+file_name.write("\n")
+file_name.write(str(student1.phone))
+file_name.write("\n")
+print(student1.is_on_probation)
+file_name.close()
+
+
+

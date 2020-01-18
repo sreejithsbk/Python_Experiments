@@ -55,6 +55,12 @@ employee_file.write("\nMelissa - Manager Sales"
                     "\nTessa - Assistant")
 employee_file.close()
 
-
+# creating a new file for me,  when we give a new file name which does not exists with "W" MODE , it creates a new file.
+employee_file = open("employee1.txt" , "w")
+employee_file.write("\nMelissa - Manager Sales"
+                    "\nKate - Assistant Consultant"
+                    "\nSam - Typist"
+                    "\nTessa - Assistant")
+employee_file.close()
 
 

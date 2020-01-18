@@ -1,0 +1,23 @@
+# -- Create a class file name it "student1.py"
+
+class Student:
+    def __init__(self, name, major, gpa):
+        self.name = name
+        self.major = major
+        self.gpa = gpa
+
+
+    def on_honors_roll(self):
+        if self.gpa > 3.5:
+           return True
+        else:
+           return False
+
+# -- Create a class file name it "Student1_test.py"
+
+from student1 import Student
+
+student1 = Student("Phyliics", "Business", 3.9)
+student2 = Student("Kelly", "Architect", 3.2)
+
+print(student2.on_honors_roll())

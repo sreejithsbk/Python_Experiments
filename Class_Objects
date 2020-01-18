@@ -7,12 +7,15 @@ class Student:
         self.name = name
         self.major = major
         self.gpa = gpa
-        self.is_on_probation = is_on_probation
         self.phone = phone
+        self.is_on_probation = is_on_probation
 
 # -- Created a file called test_class.py
-
 from test_class import Student
 
 student1 = Student("sreejith", "devops", 2.5, "Yes", 810569634 )
+print(student1.name)
+print(student1.major)
 print(student1.gpa)
+print(student1.phone)
+print(student1.is_on_probation)

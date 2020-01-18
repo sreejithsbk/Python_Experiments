@@ -47,6 +47,13 @@ employee_file.write("\nMelissa - Manager Sales"
                     "\nSam - Typist")
 employee_file.close()
 
+# Writing to the file or overwriting a file.
+employee_file = open("employee.txt" , "w")
+employee_file.write("\nMelissa - Manager Sales"
+                    "\nKate - Assistant Consultant"
+                    "\nSam - Typist"
+                    "\nTessa - Assistant")
+employee_file.close()
 
 
 

@@ -63,4 +63,9 @@ employee_file.write("\nMelissa - Manager Sales"
                     "\nTessa - Assistant")
 employee_file.close()
 
+# Just a print command to show you how you can print names in different lines.
+print("\nKevin",
+      "\nJohn",
+      "\nSelina",
+      "\nTessa")
 

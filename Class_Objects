@@ -1,4 +1,4 @@
--- Creating a class and object
+-- Creating a class and object, it must be in the same order as (self -- in the line below)
 
 # -- Created a file called test_class.py
 class Student:

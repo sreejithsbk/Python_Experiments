@@ -60,6 +60,7 @@ print(student1.phone)
 print(student1.is_on_probation)
 
 file_name = open("test.txt", "a")
+file_name.write("\n")
 file_name.write(student1.name)
 file_name.write("\n")
 file_name.write(student1.major)
@@ -68,8 +69,8 @@ file_name.write(str(student1.gpa))
 file_name.write("\n")
 file_name.write(str(student1.phone))
 file_name.write("\n")
-print(student1.is_on_probation)
+file_name.write(student1.is_on_probation)
+file_name.write("\n")
 file_name.close()
-
 
 

@@ -1,0 +1,18 @@
+-- Creating a class and object
+
+# -- Created a file called test_class.py
+class Student:
+
+    def __init__(self, name, major, gpa, phone, is_on_probation):
+        self.name = name
+        self.major = major
+        self.gpa = gpa
+        self.is_on_probation = is_on_probation
+        self.phone = phone
+
+# -- Created a file called test_class.py
+
+from test_class import Student
+
+student1 = Student("sreejith", "devops", 2.5, "Yes", 810569634 )
+print(student1.gpa)

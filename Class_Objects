@@ -39,7 +39,7 @@ print(student2.phone)
 print(student2.is_on_probation)
 
 ##################### EXPERIMENTED THE CODE BY GATHERING THE INFORMATION AND UPDATING A FILE
-### The below program has been written by creating three file --test.txt -- test_class.py --Student.py
+### The below program has been written by creating three file --test.txt -- test_class.py --object.py
 
 from test_class import Student
 
